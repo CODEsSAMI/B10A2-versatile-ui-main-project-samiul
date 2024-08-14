@@ -30,6 +30,10 @@ body {
         margin-top: 57px;
     }
 
+    .burger {
+        display: none;
+    }
+
     .logo {
         color: rgb(230, 83, 60);
         font-family: Inter;
@@ -64,7 +68,7 @@ body {
         font-size: 1.125rem;
     }
 
-    #about{
+    #about {
         padding: 1.25rem;
     }
 
@@ -82,7 +86,7 @@ body {
 /* banner design */
 .banner-design {
     .banner {
-        border: 1px solid red;
+        border: 1px solid rgb(253, 0, 0);
         max-width: 1060px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -135,10 +139,11 @@ body {
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.5rem; /* 150% */
+        line-height: 1.5rem;
+        /* 150% */
         letter-spacing: 0.03125rem;
         margin: 0px 0px;
-        
+
         text-wrap: wrap;
     }
 
@@ -183,16 +188,124 @@ body {
         line-height: 22px;
     }
 
-    .banner-image-container{
+    .banner-image-container {
         border: 5px dotted rgb(97, 97, 44);
         height: 100%;
         display: flex;
         justify-content: right;
     }
+
     .banner-image {
         border: 3px solid green;
         background-image: url(./images/Images\ 1.png);
         width: 21.8125rem;
-height: 36.25rem;
+        height: 36.25rem;
     }
+
+
+    .video-container {
+        border: 2px solid olive;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 12.37rem;
+    }
+
+
+    .video350 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: rgba(48, 48, 48, 0.54);
+        backdrop-filter: blur(10px);
+        width: 12.875rem;
+        flex-shrink: 0;
+        padding: 1.25rem 0rem;
+        gap: .75rem;
+
+        margin-left: -7.06rem;
+        /* margin-top: 26.31rem; */
+    }
+
+    .video-button {
+        border: 2px solid violet;
+
+    }
+
+    .video-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .video350-text {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .title350 {
+        color: rgba(250, 250, 249, 1);
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    .text350 {
+        color: rgba(239, 237, 232, 0.65);
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .video500 {
+        display: flex;
+        flex-direction: column;
+        width: 9.0625rem;
+        height: 6.125rem;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: rgba(255, 255, 255, 0.10);
+        backdrop-filter: blur(10px);
+        margin-top: 7.81rem;
+        margin-left: 14.38rem;
+        justify-content: center;
+        padding: 0rem 0rem 0rem 1.5rem;
+    }
+
+    .title500 {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-weight: 900;
+        border: 2px solid orange;
+    }
+
+    .text500 {
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 0.8125rem;
+        font-weight: 400;
+
+        border: 2px solid green;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-design {
+        .burger {
+            display: block;
+        }
+
+        .nav-menu {
+            display: none;
+        }
+    }
+
 }
