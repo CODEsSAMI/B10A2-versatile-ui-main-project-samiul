@@ -37,7 +37,7 @@ p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1060px;
+        max-width: 100%;
 
         margin-top: 57px;
     }
@@ -98,9 +98,10 @@ p {
 
 /* banner design */
 .banner-design {
+    padding: 0px 10%;
     .banner {
-        /* border: 1px solid rgb(253, 0, 0); */
-        max-width: 1060px;
+        border: 1px solid rgb(253, 0, 0);
+        max-width: 80%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
@@ -318,10 +319,10 @@ p {
 
 /* change habit design */
 .change-habit-container {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: center;
-    max-width: 1440px;
+    max-width: 100%;
 
     .change-habit {
         /* border: 2px solid green; */
@@ -427,7 +428,7 @@ p {
 
 /* run extra design */
 .run-design-container {
-    /* border: 2px solid rgb(180, 105, 255); */
+    border: 2px solid rgb(180, 105, 255);
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -653,7 +654,60 @@ p {
 } */
 
 
+/* team design */
+.team-design-container {
+    border: 2px solid red;
+    margin-top: 88px;
+    margin-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
 
+    .team-container {
+        border: 2px solid rgb(208, 255, 0);
+        display: flex;
+        max-width: 1060px;
+        flex-direction: column;
+        align-items: center;
+        gap: 58px;
+    }
+
+    .team-text-container {
+        border: 2px solid rgb(0, 255, 21);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .team-title {
+        border: 2px solid rgb(0, 255, 221);
+        color: #FFF;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .team-description {
+        border: 2px solid rgb(0, 60, 255);
+        color: rgba(255, 255, 255, 0.50);
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+
+    .team-image-container {}
+
+    .team-images-card {}
+
+
+
+
+}
 
 
 @media screen and (max-width: 576px) {
