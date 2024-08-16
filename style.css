@@ -38,7 +38,7 @@ p {
         justify-content: space-between;
         align-items: center;
         max-width: 1060px;
-        
+
         margin-top: 57px;
     }
 
@@ -321,7 +321,7 @@ p {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
-    max-width: 1440;
+    max-width: 1440px;
 
     .change-habit {
         /* border: 2px solid green; */
@@ -532,10 +532,128 @@ p {
         border-radius: 18px;
     }
 
-    .run-image-mobile{
+    .run-image-mobile {
         display: none;
     }
 }
+
+
+/* training and exercise design */
+/* .training-design-container {
+
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin-top: 71px;
+    flex-direction: column;
+    align-items: center;
+
+    .training-container {
+        border: 2px solid rgb(238, 255, 0);
+        display: flex;
+        max-width: 1060px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 58px;
+    }
+
+    .training-text {
+        border: 2px solid rgb(0, 255, 13);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+        margin: 0px;
+    }
+
+    .training-title {
+        border: 2px solid rgb(0, 238, 255);
+        color: #FFF;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 120%;
+        margin: 0px;
+    }
+
+    .training-description {
+        border: 2px solid rgb(25, 0, 255);
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+
+    .training-image-container {
+        border: 2px solid rgb(255, 0, 255);
+        max-width: 1060px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .training-image-card1 {}
+
+    .image-overlay1 {}
+
+    .image1 {
+        height: 100%;
+    }
+
+    .exercise-image-text1 {}
+
+
+    .training-image-card2 {}
+
+    .image-overlay2 {}
+
+    .image2 {}
+
+    .exercise-image-text2 {}
+
+
+    .training-image-card3 {}
+
+    .image-overlay3 {}
+
+    .image3 {}
+
+    .exercise-image-text3 {}
+
+
+    .training-image-card4 {}
+
+    .image-overlay4 {}
+
+    .image4 {}
+
+    .exercise-image-text4 {}
+
+
+    .training-image-card5 {}
+
+    .image-overlay5 {}
+
+    .image5 {}
+
+    .exercise-image-text5 {}
+
+
+    .training-image-card6 {}
+
+    .image-overlay6 {}
+
+    .image6 {}
+
+    .exercise-image-text6 {}
+
+} */
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -769,7 +887,7 @@ p {
         justify-content: center;
         max-width: 100%;
         margin-top: 66px;
-    
+
         .run-container {
             max-width: 353px;
             padding: 31px 33px 35px 33px;
@@ -779,45 +897,45 @@ p {
             align-items: center;
             gap: 31px;
         }
-    
+
         .run-action-container {
             max-width: 287px;
             gap: 24px;
         }
-    
+
         .run-text {
             max-width: 287px;
             gap: 14px;
         }
-    
+
         .run-title {
             font-size: 32px;
         }
-    
+
         .run-description {
             font-size: 14px;
         }
-    
+
         .run-button-container {
             height: 54px;
             width: 287px;
         }
-    
+
         .run-button {}
-    
+
         .run-button-text {}
-    
+
         .run-image-container {
             width: 287px;
             height: 170px;
             border-radius: 18px;
         }
-    
+
         .run-image-pc {
             display: none;
         }
 
-        .run-image-mobile{
+        .run-image-mobile {
             display: block;
             height: 100%;
             border-radius: 18px;
@@ -827,7 +945,7 @@ p {
 }
 
 @media screen and (min-width:576px) and (max-width: 992px) {
-    body{
+    body {
         display: none;
     }
 }
