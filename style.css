@@ -748,6 +748,139 @@ p {
 }
 
 
+/* footer design */
+.footer-design-container {
+    /* border: 2px solid rgb(0, 255, 34); */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.10);
+    margin-bottom: 30px;
+
+
+    .footer-subcon {
+        /* border: 10px solid rgb(43, 255, 0); */
+        /* height: 562px; */
+        max-width: 1090px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .footer-content-container {
+        /* border: 5px solid rgb(113, 110, 255); */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 66px;
+        margin-bottom: 79px;
+        gap: 102px;
+
+    }
+
+    .footer-text-container {
+        /* border: 7px solid rgb(189, 255, 6); */
+        display: flex;
+        max-width: 443px;
+        flex-direction: column;
+        text-wrap: wrap;
+        gap: 20px;
+
+    }
+
+    .logo {
+        /* border: 2px solid rgb(255, 35, 6); */
+        color: #E6533C;
+        font-family: Inter;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    .footer-description {
+        /* border: 2px solid rgb(6, 255, 27); */
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-wrap: wrap;
+        width: 100%;
+    }
+
+    .get-started-section{
+        /* border: 7px solid rgb(255, 6, 6); */
+        display: flex;
+        width: 100%;
+        /* gap: 125px; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .get-started-container {
+        /* border: 2px solid rgb(31, 6, 255); */
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+        width: 181px;
+    }
+
+    .get-started-title {
+        /* border: 2px solid rgb(255, 6, 193); */
+        color: #FFF;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        text-wrap: wrap;
+        max-width: 181px;
+    }
+
+    .features-container {
+        /* border: 2px solid rgb(56, 255, 6); */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        text-wrap: wrap;
+        max-width: 181px;
+    }
+
+    .feature-name {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        text-wrap: wrap;
+    }
+
+
+    hr.line {
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.10);
+    }
+
+    .copyright-text {
+        margin-top: 36px;
+        margin-bottom: 35px;
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+}
+
+
 @media screen and (max-width: 576px) {
 
     .header {
@@ -1071,6 +1204,57 @@ p {
             max-height: 250px;
         }
 
+    }
+
+    .footer-design-container {
+
+    
+        .footer-subcon {
+            max-width: 393px;
+        }
+    
+        .footer-content-container {
+            flex-direction: column;
+            margin-top: 44px;
+            margin-bottom: 72px;
+            gap: 30px;
+            /* flex-wrap: wrap; */
+    
+        }
+    
+        .footer-text-container {
+            max-width: 317px;
+    
+        }
+    
+        .logo {}
+    
+        .footer-description {}
+    
+        .get-started-section{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+        }
+    
+        .get-started-container {
+            flex-wrap: wrap;
+        }
+    
+        .get-started-title {}
+    
+        .features-container {}
+    
+        .feature-name {}
+    
+        hr.line {}
+    
+        .copyright-text {
+            margin-bottom: 57px;
+        }
     }
 }
 
