@@ -14,7 +14,7 @@ body {
 
 
 .header-design-contaier {
-    border: 2px solid red;
+    /* border: 1px solid red; */
     background: linear-gradient(180.00deg, rgb(0, 0, 0), rgb(35, 35, 35), rgb(0, 0, 0) 100%);
     width: 100%;
     display: flex;
@@ -22,25 +22,26 @@ body {
     height: auto;
 
     .header-container {
-        border: 3px solid violet;
+        /* border: 3px solid violet; */
         max-width: 1184px;
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 32px;
+        margin: 1%;
     }
 
     /* navbar design */
     .navbar-design-container {
 
-        border: 2px solid rgb(4, 0, 255);
+        /* border: 2px solid rgb(4, 0, 255); */
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 
         .logo-container {
-            border: 2px solid orange;
+            /* border: 2px solid orange; */
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -56,19 +57,18 @@ body {
         }
 
         .navbar-container {
-            border: 2px solid yellowgreen;
+            /* border: 2px solid yellowgreen; */
             display: flex;
             align-items: center;
             justify-content: space-between;
 
         }
 
-        .burger-container{
+        .burger-container {}
 
-        }
         .burger {
-            border: 2px solid green;
-            /* display: none; */
+            /* border: 2px solid green; */
+            display: none;
         }
 
         .nav-menu {
@@ -113,15 +113,16 @@ body {
 
     /* banner design */
     .banner-design-container {
-        border: 2px solid rgb(21, 255, 0);
+        /* border: 2px solid rgb(21, 255, 0); */
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 20px;
 
         /* banner text container design */
         .banner-text-container {
-            border: 5px dotted yellow;
+            /* border: 5px dotted yellow; */
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -131,13 +132,16 @@ body {
             gap: 28px;
         }
 
-        .banner-title-container{
-            border: 3px solid rgb(255, 0, 0);
+        .banner-title-container {
+            /* border: 3px solid rgb(255, 0, 0); */
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
         }
 
         .banner-title {
-            border: 3px solid rgb(196, 130, 130);
+            /* border: 3px solid rgb(196, 130, 130); */
             color: rgb(255, 255, 255);
             font-family: Inter;
             font-size: 78px;
@@ -154,13 +158,14 @@ body {
             font-style: italic;
         }
 
-        .banner-description-container{
-            border: 3px solid rgb(0, 255, 0);
+        .banner-description-container {
+            /* border: 3px solid rgb(0, 255, 0); */
+            max-width: ;
             width: 100%;
         }
 
         .banner-description {
-            border: 3px solid rgb(85, 34, 34);
+            /* border: 3px solid rgb(85, 34, 34); */
             color: rgba(255, 255, 255, 0.50);
             font-family: Inter;
             font-size: 1rem;
@@ -171,8 +176,8 @@ body {
             text-wrap: wrap;
         }
 
-        .banner-button-container{
-            border: 2px solid white;
+        .banner-button-container {
+            /* border: 2px solid white; */
             display: flex;
             gap: 14px;
             flex-wrap: wrap;
@@ -211,7 +216,7 @@ body {
 
         /* banner image container design */
         .banner-image-container {
-            border: 5px dotted rgb(97, 97, 44);
+            /* border: 5px dotted rgb(97, 97, 44); */
             min-height: 580px;
             height: 100%;
             max-width: 536px;
@@ -224,8 +229,8 @@ body {
             background-position: bottom center;
         }
 
-        .banner-card-container{
-            border: 3px solid wheat;
+        .banner-card-container {
+            /* border: 3px solid wheat; */
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -237,17 +242,9 @@ body {
             width: 100%;
         }
 
-        .video500-position{
-            border: 2px solid red;
-            max-height:98px;
-            height: 100%;
-            display: flex;
-            justify-content: end;
-        }
-
-        .video500-container{
-            border: 2px solid red;
-            max-height:98px;
+        .video500-container {
+            /* border: 2px solid red; */
+            max-height: 98px;
             height: 100%;
             display: flex;
             justify-content: end;
@@ -288,8 +285,8 @@ body {
             /* border: 2px solid green; */
         }
 
-        .vide350-container{
-            border: 2px solid red;
+        .vide350-container {
+            /* border: 2px solid red; */
             max-height: 6rem;
             height: 100%;
             display: flex;
@@ -344,10 +341,13 @@ body {
 
 }
 
+main {
+    /* margin: 1%; */
+}
 
 /* change habit design */
 .change-habit-container {
-    border: 2px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -373,6 +373,8 @@ body {
 
     .change-title {
         /* border: 2px solid blue; */
+        color: #FFF;
+        font-family: Inter;
         font-size: 48px;
         font-weight: 900;
         line-height: 120%;
@@ -385,6 +387,7 @@ body {
         /* border: 2px solid yellow; */
         color: rgba(255, 255, 255, 0.50);
         text-align: center;
+        font-family: Inter;
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
@@ -414,7 +417,6 @@ body {
     .change-card-image-container {
         margin: 0px;
         border: 4px solid rgb(26, 26, 26);
-
         width: 180px;
         height: 180px;
         border-radius: 100%;
@@ -432,9 +434,11 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 6px;
+        font-family: Inter;
     }
 
     .change-card-title {
+        color: #FFF;
         font-size: 18px;
         font-weight: 600;
         line-height: 120%;
@@ -456,8 +460,9 @@ body {
 
 /* run extra design */
 .run-design-container {
-    border: 2px solid rgb(180, 105, 255);
-    max-width: 100%;
+    /* border: 1px solid rgb(180, 105, 255); */
+    max-width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -467,13 +472,14 @@ body {
     .run-container {
         /* border: 2px solid green; */
         max-width: 1040px;
+        width: 100%;
         border-radius: 18px;
         background: #222;
-        padding: 30px 32px 30px 54px;
+        padding: 30px auto 30px auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 128px;
+        /* gap: 128px; */
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -485,7 +491,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 34px;
-        margin: 0px;
+        margin: 2.5% 0% 2.5% 5%;
     }
 
     .run-text {
@@ -553,7 +559,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0px;
+        margin: 2.5% 5% 2.5% 0%;
     }
 
     .run-image-pc {
@@ -684,15 +690,16 @@ body {
 
 /* team design */
 .team-design-container {
-    border: 2px solid red;
+    /* border: 1px solid red; */
     margin-top: 88px;
     margin-bottom: 88px;
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    max-width: 1440px;
+    width: 100%;
 
     .team-container {
-        border: 2px solid rgb(208, 255, 0);
+        /* border: 2px solid rgb(208, 255, 0); */
         display: flex;
         max-width: 1060px;
         flex-direction: column;
@@ -750,7 +757,7 @@ body {
         border-radius: 18px;
         display: flex;
         justify-content: center;
-
+        position: relative;
 
     }
 
@@ -759,14 +766,41 @@ body {
         max-height: 272px;
         width: 100%;
         object-fit: cover;
+        background-color: black;
+        opacity: .75;
     }
 
+    .team-card-text-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        width: 100%;
+        position: absolute;
+        left: 19px;
+        bottom: 16px;
+    }
+
+    .team-card-title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+
+    .team-card-text {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+    }
 }
 
 
 /* footer design */
 .footer-design-container {
-    /* border: 2px solid rgb(0, 255, 34); */
+    /* border: 1px solid rgb(0, 255, 34); */
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -776,13 +810,14 @@ body {
 
 
     .footer-subcon {
-        /* border: 10px solid rgb(43, 255, 0); */
+        /* border: 5px solid rgb(255, 0, 0); */
         /* height: 562px; */
         max-width: 1090px;
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 1%;
 
     }
 
@@ -879,15 +914,17 @@ body {
     }
 
 
-    .line-container{
+    .line-container {
         width: 100%;
         display: flex;
         justify-content: center;
 
     }
-    .hr-container{
+
+    .hr-container {
         width: 90%;
     }
+
     hr.line {
         width: 100%;
         border: 2px solid rgba(255, 255, 255, 0.10);
@@ -911,99 +948,87 @@ body {
 @media screen and (max-width: 576px) {
 
     .header-design-contaier {
-        border:none;
-    
+
         .header-container {
-            border: none;
-            max-width: 393px;
+            max-width: 576px;
             width: 100%;
             flex-direction: column;
             gap: 51px;
-            margin: 3%;
+            margin: 4%;
         }
-    
+
         /* navbar design */
         .navbar-design-container {
-            border:none;
             justify-content: space-between;
-    
+
             .logo-container {
                 border: none;
             }
-    
+
             .logo {
                 font-size: 36px;
             }
-    
+
             .navbar-container {
-                border:none;
             }
-    
+
             .burger-container {
-                border:none;
                 display: inline;
 
-                .burger{
-                    border: none;
+                .burger {
                     display: block;
                 }
             }
-    
+
             .nav-menu {
                 display: none;
             }
         }
-    
+
         /* banner design */
         .banner-design-container {
-            border:none;
             justify-content: space-between;
             align-items: center;
             flex-direction: column;
             gap: 48px;
-    
+
             /* banner text container design */
             .banner-text-container {
-                border: 5px dotted yellow;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                max-width: 520px;
+                max-width: 576px;
+                width: 100%;
+                align-items: center;
+            }
+
+            .banner-title-container {
+                max-width: 400px;
                 width: 100%;
                 gap: 28px;
             }
-    
-            .banner-title-container{
-                border: 3px solid rgb(255, 0, 0);
-                width: 100%;
-            }
-    
+
             .banner-title {
-                border: 3px solid rgb(196, 130, 130);
                 color: rgb(255, 255, 255);
                 font-family: Inter;
-                font-size: 78px;
+                font-size: 36px;
                 font-weight: 900;
                 line-height: 120%;
                 text-wrap: wrap;
+                max-width: 280px;
             }
-    
+
             .shape {
                 color: #FFF;
                 font-family: Miama;
-                font-size: 9.65rem;
+                font-size: 70px;
                 font-weight: 400;
                 font-style: italic;
             }
-    
-            .banner-description-container{
-                border: 3px solid rgb(0, 255, 0);
+
+            .banner-description-container {
+                max-width: 290px;
                 width: 100%;
             }
-    
+
             .banner-description {
-                border: 3px solid rgb(85, 34, 34);
                 color: rgba(255, 255, 255, 0.50);
                 font-family: Inter;
                 font-size: 1rem;
@@ -1013,178 +1038,91 @@ body {
                 letter-spacing: 0.03125rem;
                 text-wrap: wrap;
             }
-    
-            .banner-button-container{
-                border: 2px solid white;
-                display: flex;
-                gap: 14px;
-                flex-wrap: wrap;
-                width: 100%;
+
+            .banner-button-container {
             }
-    
+
             .button-join-club {
-                width: 224px;
+                width: 169px;
                 height: 54px;
                 justify-content: center;
-                padding: 16px 40px;
-                border-radius: 42px;
-                border: none;
-                background: rgb(230, 83, 60);
-                color: rgb(255, 255, 255);
-                font-family: Inter;
-                font-size: 18px;
-                font-weight: 600;
-                line-height: 22px;
+                padding: 16px 4px;
             }
-    
+
+            #club {
+                display: none;
+            }
+
             .button-download-app {
-                width: 224px;
+                width: 169px;
                 height: 54px;
-                justify-content: center;
-                padding: 16px 40px;
+                padding: 16px 14px;
                 border-radius: 42px;
-                border: 1px solid rgb(255, 255, 255);
-                background-color: transparent;
-                color: rgb(255, 255, 255);
-                font-family: Inter;
-                font-size: 18px;
-                font-weight: 600;
-                line-height: 22px;
             }
-    
+
             /* banner image container design */
             .banner-image-container {
-                border: 5px dotted rgb(97, 97, 44);
-                min-height: 580px;
+                max-height: 495px;
                 height: 100%;
                 max-width: 536px;
                 width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-image: url(./images/Images\ 1.png);
-                background-repeat: no-repeat;
-                background-position: bottom center;
             }
-    
-            .banner-card-container{
-                border: 3px solid wheat;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                max-height: 392px;
+
+            .banner-card-container {
+                margin: 5%;
+                max-height: 350px;
                 height: 100%;
                 flex-wrap: wrap;
-                /* align-self:flex-start; */
-                max-width: 536px;
-                width: 100%;
+                align-self: center;
             }
-    
-            .video500-position{
-                border: 2px solid red;
-                max-height:98px;
-                height: 100%;
-                display: flex;
-                justify-content: end;
+
+            .video500-container {
+                max-height: 74px;
             }
-    
-            .video500-container{
-                border: 2px solid red;
-                max-height:98px;
-                height: 100%;
-                display: flex;
-                justify-content: end;
-            }
-    
+
             .video500 {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                max-width: 150px;
+                max-width: 145px;
                 height: 100%;
-                border-radius: 0.75rem;
-                border: 1px solid rgba(255, 255, 255, 0.10);
-                background: rgba(255, 255, 255, 0.10);
-                backdrop-filter: blur(10px);
-                justify-content: center;
-                padding: 0rem 1.5rem 0rem 1.5rem;
+                border-radius: 9.072px;
+                padding: 0px 18px 0px 18px;
             }
-    
+
             .title500 {
-                color: #FFF;
-                font-family: Inter;
-                font-size: 2.5rem;
+                font-size: 30.241px;
                 font-weight: 900;
                 letter-spacing: 0.0625rem;
                 text-wrap: wrap;
-                /* border: 2px solid orange; */
-    
+
             }
-    
+
             .text500 {
-                color: rgba(255, 255, 255, 0.65);
-                font-family: Inter;
-                font-size: 0.8125rem;
-                font-weight: 400;
-                letter-spacing: 0.0625rem;
-                text-wrap: wrap;
-                /* border: 2px solid green; */
+                font-size: 9.828px;
             }
-    
-            .vide350-container{
-                border: 2px solid red;
-                max-height: 6rem;
-                height: 100%;
-                display: flex;
+
+            .vide350-container {
+                max-height: 72.6px;
             }
-    
+
             .video350 {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 0.75rem;
-                border: 1px solid rgba(255, 255, 255, 0.10);
-                background: rgba(48, 48, 48, 0.54);
-                backdrop-filter: blur(10px);
-                max-width: 200px;
-                width: 100%;
-                gap: .75rem;
+                max-width: 155px;
             }
-    
-            .video-button {
-                /* border: 2px solid violet; */
-    
-            }
-    
-            .video-icon {
-                width: 2.5rem;
-                height: 2.5rem;
-            }
-    
-            .video350-text {
-                display: flex;
-                flex-direction: column;
-                gap: .5rem;
-            }
-    
+
+            .video-button {}
+
+            .video-icon {}
+
+            .video350-text {}
+
             .title350 {
-                color: rgba(250, 250, 249, 1);
-                font-family: Inter;
-                font-size: 1.5rem;
-                font-weight: 900;
-                /* border: 2px solid yellow; */
+                font-size: 18.14px;
             }
-    
+
             .text350 {
-                color: rgba(239, 237, 232, 0.65);
-                font-family: Inter;
-                font-size: 1rem;
-                font-weight: 400;
-                /* border: 2px solid salmon; */
+                font-size: 12px;
             }
-    
+
         }
-    
+
     }
 
     .change-habit-container {
@@ -1239,7 +1177,7 @@ body {
 
         .run-container {
             max-width: 353px;
-            padding: 31px 33px 35px 33px;
+            padding: 31px auto 35px auto;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -1250,6 +1188,7 @@ body {
         .run-action-container {
             max-width: 287px;
             gap: 24px;
+            margin: 10% 0% 0% 0%;
         }
 
         .run-text {
@@ -1278,6 +1217,7 @@ body {
             width: 287px;
             height: 170px;
             border-radius: 18px;
+            margin: 0% 0% 13% 2%;
         }
 
         .run-image-pc {
@@ -1374,9 +1314,9 @@ body {
 
         .feature-name {}
 
-        .line-container{}
+        .line-container {}
 
-        .hr-container{}
+        .hr-container {}
 
         hr.line {}
 
