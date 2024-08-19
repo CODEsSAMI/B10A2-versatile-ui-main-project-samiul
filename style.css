@@ -629,6 +629,7 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .bmi-content-container {
@@ -638,6 +639,8 @@ main {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-top: 52px;
+        margin-bottom: 52px;
     }
 
     .bmi-table-side-container {
@@ -1421,7 +1424,7 @@ main {
             max-width: 310px;
             width: 100%;
             gap: 23px;
-            margin-top: 34px;
+            margin-top: 30px;
         }
 
         .bmi-table-title-container {
@@ -1449,6 +1452,7 @@ main {
             /* border:none; */
             max-width: 354px;
             width: 95%;
+            margin-bottom: 30px;
         }
 
         .bmi-form-text-container {
